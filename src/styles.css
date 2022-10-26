@@ -4,21 +4,29 @@
 @tailwind utilities;
 
 .card-section {
-    @apply p-5 flex justify-center items-center flex-col w-full rounded-lg bg-[#2F3340]
+    @apply p-14 flex justify-center items-center flex-col w-full rounded-lg bg-[#2F3340] shadow-2xl
 }
 
 .divider-line {
-    @apply border-dotted border-separate border-r-0 border-8 h-60 w-1 m-auto
+    @apply border-dotted border-r-0 border-8 h-60 w-1 m-auto border-magenta
 }
 
 .text-gradient {
-    @apply font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600
+    @apply font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-lightPurple to-magenta
 }
 
 .body-text {
-    @apply text-center block pb-5 md:px-10 lg:px-40
+    @apply text-center block pb-5 md:px-10 lg:px-40 text-slate-300
 }
 
 .img-border-gradient {
-    @apply bg-gradient-to-r from-purple-400 to-pink-600 rounded-full
+    @apply bg-gradient-to-r from-lightPurple to-magenta rounded-full
+}
+
+.btn {
+    @apply rounded-full py-2 px-3 uppercase font-bold cursor-pointer tracking-wider
+}
+
+*{
+    scroll-behavior: smooth !important;
 }

@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'magenta': '#FF7A7A',
+        'lightPurple': '#695EE6'
+      },
       fontFamily: {
         Poppins: ['Poppins']
       }
