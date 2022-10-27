@@ -13,8 +13,28 @@
     <div>
         <!-- Content Wrapper -->
         <div>
+            <!-- Navigation -->
+            <nav class="flex justify-center bg-[#2F3340] rounded-full w-1/2 m-auto mt-20">
+                <div class="p-3 m-5 border border-white rounded-full">
+                    <a class="" href="#sydney">Sydney</a>
+                </div>
+                <div class="p-3 m-5 border border-white rounded-full">
+                    <a class="" href="#roland">Roland</a>
+                </div>
+                <div class="p-3 m-5 border border-white rounded-full">
+                    <a class="" href="#criteria">Buying Criteria</a>
+                </div>
+                <div class="p-3 m-5 border border-white rounded-full">
+                    <a class="" href="#timeline">Our Timeline</a>
+                </div>
+                <div class="p-3 m-5 border border-white rounded-full">
+                    <a class="" href="#contact">Contact Us</a>
+                </div>
+            </nav>
+
+
             <!-- Main -->
-            <main class="mt-10 md:mt-32 lg:w-1/2 md:w-3/4 m-auto rounded-lg overflow-hidden snap-y z-1">
+            <main class="mt-10 md:mt-24 lg:w-1/2 md:w-3/4 m-auto rounded-lg overflow-hidden snap-y z-1">
                 <!-- Who We Are -->
                 <div class="card-section snap-center">
                     <h2 class="text-gradient text-6xl text-center pb-10 font-black">Who We Are</h2>
@@ -113,11 +133,52 @@
 
                 <!-- Timeline -->
                 <hr class="divider-line">
-                <div class="card-section mb-40" id="timeline">
+                <div class="card-section" id="timeline">
                     <h2 class="text-gradient text-4xl pb-5">Timeline</h2>
                     <span class="body-text">We're ready to execute on a deal ASAP.</span>
                     <div class="p-2 img-border-gradient">
                         <img src="img/deal-handshake.jpg" alt="" class="object-cover h-52 w-52 rounded-full border">
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <hr class="divider-line">
+                <div class="card-section mb-40" id="contact">
+
+                    <h2 class="text-gradient text-4xl pb-5">Contact Us</h2>
+                    <div class="p-2 img-border-gradient">
+                        <img src="img/deal-handshake.jpg" alt="" class="object-cover h-52 w-52 rounded-full border">
+                    </div>
+
+                    <div class="flex flex-row m-10">
+                        <a class="mr-10 border rounded-full p-5" href="tel:385-301-2407">
+                            <svg class="w-14 h-14 m-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                            </svg>
+                            <p>Call Us</p>
+                        </a>
+
+
+                        <a class="border rounded-full p-5" href="sms:385-301-2407">
+                            <svg class="w-14 h-14 m-auto" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                            </svg>
+                            <p>Text Us</p>
+                        </a>
+                    </div>
+
+                    <div class="">
+                        <form class="flex justify-center flex-col" action="">
+                            <input class="border m-2" type="text" placeholder="First Name">
+                            <input class="border m-2" type="text" placeholder="Last Name">
+                            <input class="border m-2" type="text" placeholder="Email Name">
+                            <input class="border m-2 h-40" type="text" placeholder="Contact Message">
+                            <button class="mt-5 block border rounded-full" type="submit">Submit</button>
+                        </form>
                     </div>
                 </div>
             </main>
