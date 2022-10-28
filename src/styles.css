@@ -16,7 +16,7 @@
 }
 
 .body-text {
-    @apply text-center block pb-5 md:px-10 lg:px-40 text-slate-300
+    @apply text-center block pb-5 lg:px-40 text-slate-300
 }
 
 .img-border-gradient {
@@ -27,6 +27,6 @@
     @apply rounded-full py-2 px-3 uppercase font-bold cursor-pointer tracking-wider
 }
 
-*{
+* {
     scroll-behavior: smooth !important;
 }
