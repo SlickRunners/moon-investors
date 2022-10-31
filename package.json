@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch",
-    "build": "vite build"
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
   },
   "author": "Roland Christensen",
   "license": "ISC",
+  "engines": {
+    "node": "16.17.1"
+  },
   "dependencies": {
     "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
