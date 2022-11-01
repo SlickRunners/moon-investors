@@ -13,22 +13,31 @@
     <div>
         <div>
             <!-- Navigation -->
-            <nav
-                class="p-5 md:flex justify-center md:bg-[#2F3340] rounded-full lg:w-1/2 md:w-3/4 m-auto mt-20 lg:text-2xl md:text-md text-sm text-center">
-                <div class="p-3 m-auto lg:border border-white rounded-full text-gradient align-middle">
-                    <a class="" href="#sydlg:ney">Sydney</a>
-                </div>
-                <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
-                    <a class="" href="#roland">Roland</a>
-                </div>
-                <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
-                    <a class="" href="#criteria">Buying Criteria</a>
-                </div>
-                <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
-                    <a class="" href="#timeline">Our Timeline</a>
-                </div>
-                <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
-                    <a class="" href="#contact">Contact Us</a>
+            <nav class="mt-10">
+
+                <svg class="w-12 h-12 md:hidden m-auto" id="hamburger" onclick="closeOpenMenu()"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+                <div id="menu" class="nav">
+                    <div class="p-3 m-auto lg:border border-white rounded-full text-gradient align-middle">
+                        <a class="" href="#sydney">Sydney</a>
+                    </div>
+                    <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
+                        <a class="" href="#roland">Roland</a>
+                    </div>
+                    <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
+                        <a class="" href="#criteria">Buying Criteria</a>
+                    </div>
+                    <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
+                        <a class="" href="#timeline">Our Timeline</a>
+                    </div>
+                    <div class="p-3 m-auto lg:border border-white rounded-full text-gradient">
+                        <a class="" href="#contact">Contact Us</a>
+                    </div>
                 </div>
             </nav>
 
@@ -132,6 +141,7 @@
                         <li>~$300k SDE</li>
                         <li>Seller Financing Available(10-20%)</li>
                         <li>3-5 employees</li>
+                        <li>Industry Agnostic</li>
                     </ul>
                     <div class="mt-5 ring-8 ring-slate-500/50 rounded-full">
                         <div class="p-2 img-border-gradient">
@@ -198,5 +208,6 @@
         </div>
     </div>
 </body>
+<script type="text/javascript" src="logic.js"></script>
 
 </html>
