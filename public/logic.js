@@ -1,9 +1,9 @@
 var menu = document.getElementById("menu")
 
 function closeOpenMenu() {
-    if (menu.hidden === false) {
-        menu.hidden = true;
+    if (menu.classList.contains("hidden")) {
+        menu.classList.remove("hidden")
     } else {
-        menu.hidden = false;
+        menu.classList.add("hidden")
     }
 };
